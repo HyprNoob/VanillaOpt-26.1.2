@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "vannilaopt",
+	"version": "${version}",
+	"name": "VannilaOpt",
+	"description": "Fabric mod for Minecraft Java 26.1.2, optimizing vanilla game experience!",
+	"authors": [
+		"HyprNoob"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/vannilaopt/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hyprnoob.vanillaopt.VannilaOpt"
+		],
+		"client": [
+			"com.hyprnoob.vanillaopt.client.VannilaOptClient"
+		],
+		"fabric-datagen": [
+			"com.hyprnoob.vanillaopt.client.VannilaOptDataGenerator"
+		]
+	},
+	"mixins": [
+		"vannilaopt.mixins.json",
+		{
+			"config": "vannilaopt.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
