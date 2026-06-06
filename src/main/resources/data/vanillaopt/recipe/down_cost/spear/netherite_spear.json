@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [
+    "minecraft:netherite_upgrade_smithing_template"
+  ],
+  "base": [
+    "minecraft:netherite_spear"
+  ],
+  "addition": [
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_spear",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}

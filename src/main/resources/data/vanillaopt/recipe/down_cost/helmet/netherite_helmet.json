@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [
+    "minecraft:netherite_upgrade_smithing_template"
+  ],
+  "base": [
+    "minecraft:netherite_helmet"
+  ],
+  "addition": [
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "!minecraft:repair_cost": {}
+    }
+  }
+}
