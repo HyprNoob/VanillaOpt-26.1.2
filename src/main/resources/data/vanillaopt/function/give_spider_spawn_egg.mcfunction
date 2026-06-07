@@ -1,0 +1,1 @@
+give @s minecraft:spider_spawn_egg 1

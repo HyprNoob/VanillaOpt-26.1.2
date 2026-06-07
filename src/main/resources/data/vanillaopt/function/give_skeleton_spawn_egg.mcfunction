@@ -1,0 +1,1 @@
+give @s minecraft:skeleton_spawn_egg 1

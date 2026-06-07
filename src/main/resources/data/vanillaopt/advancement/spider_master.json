@@ -1,0 +1,45 @@
+{
+  "parent": "vanillaopt:spider_hunter",
+  "criteria": {
+    "zombie_hunter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:killed",
+                    "stat": "minecraft:spider",
+                    "value": {
+                      "min": 500
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "蜘蛛大师",
+    "description": "蜘蛛大师：累计击杀500只蜘蛛",
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "icon": {
+      "id": "minecraft:cobweb"
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "function": "vanillaopt:give_spider_spawn_egg"
+  }
+}

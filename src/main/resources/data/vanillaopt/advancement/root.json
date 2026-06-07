@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "get_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "Great Adventure",
+    "description": "他山之石，可以攻玉：获得一块下界合金锭",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "icon": {
+      "id": "minecraft:netherite_ingot"
+    },
+    "background": "block/chiseled_polished_blackstone"
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

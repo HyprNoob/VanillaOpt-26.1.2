@@ -1,0 +1,1 @@
+give @s minecraft:zombie_spawn_egg 1
