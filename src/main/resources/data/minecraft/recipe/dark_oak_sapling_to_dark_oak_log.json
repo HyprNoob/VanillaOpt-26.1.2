@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": false,
+  "ingredients": [
+    [
+      "minecraft:dark_oak_sapling"
+    ],
+    [
+      "minecraft:bone_block"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:dark_oak_log",
+    "count": 64
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": false,
+  "ingredients": [
+    [
+      "minecraft:jungle_sapling"
+    ],
+    [
+      "minecraft:bone_block"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:jungle_log",
+    "count": 64
+  }
+}

@@ -1,8 +1,7 @@
 {
   "given_item_modifiers": [
     {
-      "function": "enchant_randomly",
-      "options": "#exclusive_set/mining"
+      "function": "enchant_randomly"
     }
   ],
   "gives": {
