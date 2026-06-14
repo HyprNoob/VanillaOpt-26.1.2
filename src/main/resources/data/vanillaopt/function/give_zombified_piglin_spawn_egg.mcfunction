@@ -1,0 +1,1 @@
+give @s minecraft:zombified_piglin_spawn_egg 1

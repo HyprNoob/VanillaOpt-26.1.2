@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 4,
+  "description": "Reach",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:block_interaction_range",
+        "id": "vanillaopt:reach",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:pickaxes",
+  "weight": 2
+}

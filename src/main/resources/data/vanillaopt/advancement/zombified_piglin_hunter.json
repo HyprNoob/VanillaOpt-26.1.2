@@ -1,0 +1,45 @@
+{
+  "parent": "vanillaopt:root",
+  "criteria": {
+    "zombie_hunter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:killed",
+                    "stat": "minecraft:zombified_piglin",
+                    "value": {
+                      "min": 100
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": "什么样的攻击者？",
+    "description": "累计击杀100只僵尸猪灵",
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "icon": {
+      "id": "minecraft:zombified_piglin_spawn_egg"
+    }
+  },
+  "rewards": {
+    "experience": 10000,
+    "function": "vanillaopt:give_zombified_piglin_spawn_egg"
+  }
+}
