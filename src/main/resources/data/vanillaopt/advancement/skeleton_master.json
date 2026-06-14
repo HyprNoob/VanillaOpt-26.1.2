@@ -39,7 +39,7 @@
     }
   },
   "rewards": {
-    "experience": 500,
+    "experience": 50000,
     "function": "vanillaopt:give_skeleton_egg"
   }
 }
